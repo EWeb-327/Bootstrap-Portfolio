@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> BootStrap Practice</title>
     <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -19,7 +20,7 @@
             background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png")
         }
 
-        .h1 {
+        .h1, h2 {
             font-family: 'Vidaloka', serif;
         }
 
@@ -38,9 +39,23 @@
             color: lightgrey;
             border-top: solid 5px teal;
         }
-
         .btn {
             background-color: teal;
+        }
+        img {
+            position: relative;
+            margin-top: 10%;
+            margin-left: 0.5rem;
+        }
+        h2 {
+            position: absolute;
+            bottom: 1.5rem;
+            margin-left: 0.5rem;
+            text-align: center;
+            background-color: teal; 
+            color: lightgray;
+            width: 300px;
+            font-size: 1.5rem;
         }
     </style>
 </head>
@@ -73,33 +88,37 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-5 offset-md-1">
-                            <img alt="Responsive image"
-                                src="https://via.placeholder.com/200x200" />
-                            <h2>Word Guess</h2>
+                        <div class="col-md-6">
+                            <div>
+                                <img alt="Responsive image"
+                                src="https://via.placeholder.com/300x200"/>
+                                    <div>
+                                        <h2>Word Guess</h2>
+                                    </div>
+                            </div>
                         </div>
-                        <div class="col-md-5 offset-md-1">
+                        <div class="col-md-6">
                             <img alt="Responsive image"
-                                src="https://via.placeholder.com/200x200" />
+                                src="https://via.placeholder.com/300x200" />
                             <h2>RPG Game</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-5 offset-md-1">
+                        <div class="col-md-6">
                             <img alt="Responsive image"
-                                src="https://via.placeholder.com/200x200" />
+                                src="https://via.placeholder.com/300x200" />
                             <h2>Trivia Game</h2>
                         </div>
-                        <div class="col-md-5 offset-md-1">
+                        <div class="col-md-6">
                             <img alt="Responsive image"
-                                src="https://via.placeholder.com/200x200" />
+                                src="https://via.placeholder.com/300x200" />
                             <h2>Info Widget</h2>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-5 offset-md-1">
+                    <div class="row" style="margin-bottom: 5%">
+                        <div class="col-md-6">
                             <img alt="Responsive image"
-                                src="https://via.placeholder.com/200x200" />
+                                src="https://via.placeholder.com/300x200" />
                             <h2>Rock Paper Scissors</h2>
                         </div>
                     </div>
