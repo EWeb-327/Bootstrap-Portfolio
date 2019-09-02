@@ -8,21 +8,55 @@
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    </head>
-<body>  
-<div class="container">
-    <article class="row single-post mt-5 no-gutters">
-        <div class="col-md-6">
-            <div class="image-wrapper float-left pr-3">
-                <img src="https://placeimg.com/150/150/animals" alt="">
-            </div>
-            <div class="single-post-content-wrapper p-3">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
-                <br><br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil ad, ex eaque fuga minus reprehenderit asperiores earum incidunt. Possimus maiores dolores voluptatum enim soluta omnis debitis quam ab nemo necessitatibus.
-            </div>
+    <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+        <style>
+                html,
+                body {
+                height: 100%;
+                }
+                .h1 {
+                 font-family: 'Vidaloka', serif;
+                 }
+                #page-content {
+                flex: 1 0 auto;
+                }
+                #sticky-footer {
+                flex-shrink: none; background-color: gray; color: lightgrey; border-top: solid 5px teal;
+                }
+                .btn {
+                    background-color: teal;
+                }
+            </style>
+</head>
+
+<body>
+        <nav class="d-flex flex-column navbar navbar-expand-lg navbar-light bg-light"
+        style="background-color:honeydew; border-top: solid 2px lightgray; border-bottom: solid 2px lightgray; margin-bottom: 10px; padding: 0; height: 50px">
+        <span class="navbar-brand mb-0 h1"
+            style="background-color: teal; color: lightgray; height: 100%; margin-left: 50px; padding-top: 7px">Emma
+            Weber</span>
+        <div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: gray"
+                        href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: gray"
+                        href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: gray" href="#">Contact</a>
+                </li>
+            </ul>
         </div>
-    </article>
-</div>
-</body>  
+    </nav>    
+
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+            <div class="container text-center">                    <span> Copyright©</span>
+            </div>
+    </footer>
+</body>
