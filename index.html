@@ -10,89 +10,106 @@
         crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-            html,
-            body {
+        html,
+        body {
             height: 100%;
-            }
-            .h1 {
-             font-family: 'Vidaloka', serif;
-             }
-            #page-content {
+            background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/memphis-mini.png")
+        }
+
+        .h1 {
+            font-family: 'Vidaloka', serif;
+        }
+
+        #page-content {
             flex: 1 0 auto;
-            }
-            #sticky-footer {
-            flex-shrink: none; background-color: gray; color: lightgrey; border-top: solid 5px teal;
-            }
-            .btn {
-                background-color: teal;
-            }
-        </style>
+        }
+
+        #box {
+            border: solid 2px lightgrey;
+            background-color: #F0FFFF;
+        }
+
+        #sticky-footer {
+            flex-shrink: none;
+            background-color: gray;
+            color: lightgrey;
+            border-top: solid 5px teal;
+        }
+
+        .btn {
+            background-color: teal;
+        }
+    </style>
 </head>
 
-<body>
+<body class="d-flex flex-column">
+    <div id="page-content">
         <nav class="navbar navbar-expand-lg navbar-light bg-light"
-        style="background-color:honeydew; border-top: solid 2px lightgray; border-bottom: solid 2px lightgray; margin-bottom: 10px; padding: 0; height: 50px">
-        <span class="navbar-brand mb-0 h1"
-            style="background-color: teal; color: lightgray; height: 100%; margin-left: 10%; padding-top: 2%">Emma
-            Weber</span>
-        <div>
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                    <a class="nav-link active" style="color: gray"
-                        href="#">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: gray"
-                        href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" style="color: gray" href="#">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <section class="d-flex flex-column"> 
-    <div id="page-content" class="container" style="border: solid 2px lightgrey; margin-bottom: 50px">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-12"
-                        style="border-bottom: solid 2px lightgrey; margin: 10px; padding: 0; text-align: left; width: 90%">
-                        <h1 class="h1" style="color: teal">About Me</h1>
-                    </div>
-                </div>
-                <div class="row single-post mt-5 no-gutters">
-                    <div class="col-md-12">
-                        <div class="image-wrapper float-left pr-3">
-                            <img alt="Responsive image"
-                                src="https://via.placeholder.com/300x200"/>
+            style="background-color:honeydew; border-top: solid 2px lightgray; border-bottom: solid 2px lightgray; margin-bottom: 10px; padding: 0; height: 50px">
+            <span class="navbar-brand mb-0 h1"
+                style="background-color: teal; color: lightgray; height: 100%; margin-left: 50px; padding-top: 7px">Emma
+                Weber</span>
+            <div>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" style="color: gray"
+                            href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: gray"
+                            href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" style="color: gray"
+                            href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container" id="box">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-12"
+                            style="border-bottom: solid 2px lightgrey; margin: 10px; padding: 0; text-align: left; width: 90%">
+                            <h1 class="h1" style="color: teal">About Me</h1>
                         </div>
-                        <div class="single-post-content-wrapper p-3">
-                            <p> Marshmellow jelly souffle
-                                pastry biscuit
-                                gummi bears tootsie roll tootsie roll
-                                gingerbread. Cotton candy muffin gingerbread
-                                fruitcake. Sweet roll souffle topping wafer
-                                croissant oat cake gummi bears.
-                                <br>
-                                <br>
-                                Jelly-o cheesecake dessert fruitcake ice
-                                cream brownie liquorice souffle.
-                                Caramels
-                                biscuit gummi bears tiramisu chupa
-                                chups. Croissant macaroon cotton candy
-                                cake
-                                pudding.</p>
+                    </div>
+                    <div class="row single-post mt-5 no-gutters">
+                        <div class="col-md-12">
+                            <div class="image-wrapper float-left pr-3">
+                                <img alt="Responsive image"
+                                    src="https://via.placeholder.com/300x200" />
+                            </div>
+                            <div class="single-post-content-wrapper p-3">
+                                <p> Marshmellow jelly souffle
+                                    pastry biscuit
+                                    gummi bears tootsie roll tootsie roll
+                                    gingerbread. Cotton candy muffin gingerbread
+                                    fruitcake. Sweet roll souffle topping wafer
+                                    croissant oat cake gummi bears.
+                                    <br>
+                                    <br>
+                                    Jelly-o cheesecake dessert fruitcake ice
+                                    cream brownie liquorice souffle.
+                                    Caramels
+                                    biscuit gummi bears tiramisu chupa
+                                    chups. Croissant macaroon cotton candy
+                                    cake
+                                    pudding.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    </section>  
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-            <div class="container text-center">                    <span> Copyright©</span>
-            </div>
+    <footer id="sticky-footer">
+        <div class="container text-center">
+            <small>Copyright &copy;</small>
+        </div>
     </footer>
 </body>
+
 </html>
