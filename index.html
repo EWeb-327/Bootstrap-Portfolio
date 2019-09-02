@@ -9,33 +9,42 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .h1 {
+        font-family: 'Vidaloka', serif;
+    }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="width: 100%">
-        <span class="navbar-brand mb-0 h1">Emma Weber</span>
-        <div class="collapse navbar-collapse d-flex justify-content-end"
-            id="navbarNav">
-            <ul class="navbar-nav list-inline">
-                <li class="nav-item active list-inline-item">
-                    <a class="nav-link" href="#">About <span
-                            class="sr-only">(current)</span></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light"
+        style="background-color:honeydew; border-top: solid 2px lightgray; border-bottom: solid 2px lightgray; margin-bottom: 10px; padding: 0; height: 50px">
+        <span class="navbar-brand mb-0 h1"
+            style="background-color: teal; color: lightgray; height: 100%; margin-left: 50px; padding-top: 7px">Emma
+            Weber</span>
+        <div>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link active" style="color: gray"
+                        href="#">About</a>
                 </li>
-                <li class="nav-item list-inline-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: gray"
+                        href="#">Portfolio</a>
                 </li>
-                <li class="nav-item list-inline-item">
-                    <a class="nav-link" href="#">Contact</a>
+                <li class="nav-item">
+                    <a class="nav-link" style="color: gray" href="#">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container">
+    <div class="container" style="border: solid 2px lightgrey; margin-bottom: 50px">
         <div class="row">
             <div class="col-md-12">
                 <div class="row">
-                    <div class="col-md-12">
-                        <h1>About Me</h1>
+                    <div class="col-md-12"
+                        style="border-bottom: solid 2px lightgrey; margin: 10px; padding: 0; text-align: left; width: 90%">
+                        <h1 class="h1" style="color: teal">About Me</h1>
                     </div>
                 </div>
                 <div class="row single-post mt-5 no-gutters">
@@ -66,4 +75,10 @@
                 </div>
             </div>
         </div>
+    </div>
+    <footer class="footer mt-auto py-3" style="background-color: gray; color: lightgrey; border-top: solid 5px teal; position: absolute; bottom: 0; width: 100%; text-align: center">
+        <div class="footer navbar-fixed-bottom">
+            <span> Copyright©</span>
+        </div>
+    </footer>
 </body>
